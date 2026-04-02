@@ -1,5 +1,7 @@
 import type { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {}
+const nextConfig: NextConfig = {
+  // intentionally empty
+}
 
 export default nextConfig
