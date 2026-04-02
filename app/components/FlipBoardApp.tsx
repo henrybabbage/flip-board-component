@@ -2,8 +2,8 @@
 
 import { useRef, useState, useEffect, useCallback } from 'react'
 import FlipBoard, { type FlipBoardHandle } from './FlipBoard'
-import { SoundEngine } from '@/lib/soundEngine'
-import { MESSAGES, MESSAGE_INTERVAL, TOTAL_TRANSITION } from '@/lib/constants'
+import { SoundEngine } from '@/app/lib/soundEngine'
+import { MESSAGES, MESSAGE_INTERVAL, TOTAL_TRANSITION } from '@/app/lib/constants'
 
 export default function FlipBoardApp() {
   const boardRef = useRef<FlipBoardHandle>(null)
