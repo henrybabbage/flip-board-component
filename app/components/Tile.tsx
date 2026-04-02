@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef, useImperativeHandle, forwardRef } from 'react'
-import { CHARSET, SCRAMBLE_COLORS, FLIP_DURATION } from '@/app/lib/constants'
+import { CHARSET, SCRAMBLE_COLORS, FLIP_DURATION } from '../lib/constants'
 
 export interface TileHandle {
   scrambleTo(targetChar: string, delay: number): void

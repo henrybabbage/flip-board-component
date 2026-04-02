@@ -6,8 +6,8 @@ import {
 import Tile, { type TileHandle } from './Tile'
 import {
   GRID_COLS, GRID_ROWS, STAGGER_DELAY, TOTAL_TRANSITION, ACCENT_COLORS,
-} from '@/app/lib/constants'
-import { type SoundEngine } from '@/app/lib/soundEngine'
+} from '../lib/constants'
+import { type SoundEngine } from '../lib/soundEngine'
 
 export interface FlipBoardHandle {
   displayMessage(lines: string[]): void

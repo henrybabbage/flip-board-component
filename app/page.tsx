@@ -1,4 +1,4 @@
-import FlipBoardApp from '@/app/components/FlipBoardApp'
+import FlipBoardApp from './components/FlipBoardApp'
 
 export default function Home() {
   return <FlipBoardApp />

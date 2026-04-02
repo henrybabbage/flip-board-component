@@ -1,4 +1,4 @@
-import { FLAP_AUDIO_BASE64 } from '@/app/lib/flapAudio'
+import { FLAP_AUDIO_BASE64 } from './flapAudio'
 
 export class SoundEngine {
   private ctx: AudioContext | null = null
